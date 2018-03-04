@@ -26,6 +26,13 @@
 			"Unisharp\\Ckeditor\\": "./"
 		}
 	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Unisharp\\Ckeditor\\ServiceProvider"
+			]
+		}
+	},
 	"require": {
 		"illuminate/support": "~5.0"
 	},
